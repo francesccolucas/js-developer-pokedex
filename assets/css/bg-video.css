@@ -1,0 +1,18 @@
+/* Estilize o vídeo de fundo */
+#video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* Estilize o conteúdo da Pokédex */
+.pokedex-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    /* Adicione outros estilos de layout e aparência aqui */
+}
